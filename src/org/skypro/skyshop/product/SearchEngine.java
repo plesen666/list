@@ -1,4 +1,4 @@
-package product;
+package org.skypro.skyshop.product;
 import org.skypro.skyshop.exceptions.BestResultNotFound;
 import org.skypro.skyshop.product.Searchable;
 
