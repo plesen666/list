@@ -79,7 +79,6 @@ public class ProductBasket {
         }
         return false;
     }
-
     public void clearingBasket() {
         quantityProduct = 0;
         products.clear();

@@ -28,7 +28,6 @@ public class SearchEngine {
         }
         return searchArray;
     }
-
     public Searchable getSearchTerm(String search) throws BestResultNotFound {
         int indexStart = 0;
         int indexStop;
