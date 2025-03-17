@@ -1,4 +1,4 @@
-package product;
+package org.skypro.skyshop.product;
 import org.skypro.skyshop.exceptions.BestResultNotFound;
 import org.skypro.skyshop.product.Searchable;
 
@@ -28,7 +28,6 @@ public class SearchEngine {
         }
         return searchArray;
     }
-
     public Searchable getSearchTerm(String search) throws BestResultNotFound {
         int indexStart = 0;
         int indexStop;

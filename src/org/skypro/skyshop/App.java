@@ -2,8 +2,7 @@ package org.skypro.skyshop;
 
 import org.skypro.skyshop.exceptions.BestResultNotFound;
 import org.skypro.skyshop.product.*;
-import org.skypro.skyshop.product.product.Product;
-import org.skypro.skyshop.product.searchengine.SearchEngine;
+import org.skypro.skyshop.product.SearchEngine;
 
 import java.util.ArrayList;
 
@@ -17,7 +16,7 @@ public class App {
         System.out.println("\n" + completion.repeat(numberOfCharacters) + title + completion.repeat(numberOfCharacters));
     }
 
-    static void completeTask1(ProductInformation productInformation) {
+    static <ProductInformation> void completeTask1(ProductInformation productInformation) {
         String product1 = "Хлеб ржаной";
         String product2 = "Кетчуп";
         String product3 = "Стиральный порошок";
